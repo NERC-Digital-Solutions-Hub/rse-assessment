@@ -6,9 +6,9 @@ https://github.com/NERC-Digital-Solutions-Hub/rse-assessment
 
 Feel free to clone the repository or download a zip with the code from GitHub.
 
-There are two assessments, one named CSharp with a C# project and another named 'JavaScript' which contains two JavaScript code files to evaluate.
+There are three assessments, one named ‘CSharp’ with a C# project, another named 'JavaScript' which contains two JavaScript code files to evaluate and a third one called ‘Python’. **You only need to complete TWO out of the three assessments which should correspond to your programming skills you identified in your CV**. For those who identified C# as one of the programming skills the C# assignment is **mandatory**. Then you should complete one other of the remaining tasks. 
 
-Please read the requirements of the assessment carefully. The tasks were designed to be as simple as possible but at the same time to allow you to demonstrate as much as possible of your knowledge in software engineering. You do not need to complete the tasks, given the short preparation time. However, it would be good to attempt the assessment and feel free to return it to us even if it is incomplete.
+Please read the requirements of the assessment carefully. The tasks were designed to be as simple as possible but at the same time to allow you to demonstrate as much as possible of your knowledge in software engineering. You do not need to complete the tasks, given the short preparation time. However, it would be good to attempt the assessment and feel free to return it to us even if it is incomplete. If you need any further clarification on the tasks you can contact vasileios.vlastaras@manchester.ac.uk
 
 **The deadline for it is on Sunday 25/02/2024 - 18:00 GMT (London Time).**
 
@@ -24,7 +24,7 @@ vasileios.vlastaras@manchester.ac.uk
 
 If by any chance we do not receive your assessment, make sure you have it available to upload on the day of your interview.
 
-**CSharp**
+**1. CSharp**
 
 The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a single outer shell polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
@@ -34,7 +34,7 @@ Your task involves a thorough examination of the program's code to identify and 
 
 You are granted complete freedom in your approach, including the creation of custom types, the employment of alternative collection types, or any other components from the .NET library that could improve execution time. However, the use of third-party libraries or GIS open-source libraries is strictly prohibited.
 
-**JavaScript**
+**2. JavaScript**
 
 The TreeviewStore.js and retrieveTreeviewItems.js files are part of the larger codebase of a web Single Page Application (SPA) that features, among other components, a treeview to display map layers organized in a hierarchical structure. This treeview allows users to manage layers in a map through various tree items grouped within folder items.
 Upon reviewing the refactoring process of the old codebase, these files were noted to have multiple issues. The goal is to understand the original developer's intentions, evaluate the code for its adherence to best practices, and suggest improvements.
@@ -58,3 +58,15 @@ Tree Items Architecture Based on JSON Information: Evaluate how the tree items a
 
 Upon evaluating these aspects, describe potential improvements to the code. These could involve refactoring for better clarity, adopting more effective object-oriented practices, simplifying complex functions, improving variable naming for better understanding, or optimizing the interaction with external services.
 While actual code refactoring is not required, presenting a clear, structured critique and offering concrete suggestions for enhancements will be valuable. If inspired to propose specific code changes, highlighting how these changes could be implemented would further demonstrate an understanding of good software development practices and contribute to the application's overall improvement.
+
+**3. Python Assignment: Design Pattern in GIS Data Processing**
+
+Objective: Implement a C# console application that processes a set of spatial data (e.g., a list of geographic coordinates, a list of polygons - it can read from a shapefile or from a JSON file) and applies a design pattern (e.g., Factory Method) to create different types of spatial analyses (e.g., centroid calculation, bounding box creation).
+
+**Requirements:**
+
+- Allow the user to select the type of spatial analysis via command-line arguments or user input.
+
+- Use the Factory Method pattern to instantiate the appropriate analysis class based on the user's selection.
+
+- Demonstrate proper use of abstractions using the ABC module to define and implement spatial analysis operations.
