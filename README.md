@@ -26,7 +26,7 @@ If by any chance we do not receive your assessment, make sure you have it availa
 
 **CSharp**
 
-The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a convex polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
+The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a single outer shell polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
 Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. A total of 50 million calculations or generations are performed to allow assessing performance.
 
