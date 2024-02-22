@@ -30,7 +30,7 @@ The Visual Studio Solution named 'RSE' encompasses a console project titled 'Geo
 
 Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. A total of 50 million calculations or generations are performed to allow assessing performance.
 
-Your task involves a thorough examination of the program's code to identify and rectify any issues or shortcomings before attempting the improvement. You are encouraged to leverage your proficiency in C# to enhance the implementation of the discovered operations. You are encouraged to showcase more than one approaches to reduce the execution time. It's understood that different approaches may present various advantages and drawbacks, and no singular method may optimize execution time universally. Please include all your approaches and describe the pros and cons. Should the creation of your own custom types be necessary, you may designate them as 'Point2', 'Point3', 'Polygon2', 'Polygon3', etc., to distinguish them from existing types.
+Your task involves a thorough examination of the program's code to identify and rectify any issues or shortcomings before attempting the **improvement of the program**. You are encouraged to leverage your proficiency in C# to enhance the implementation of the discovered operations. You are encouraged to showcase more than one approach to **reduce the execution time of the program**. It's understood that different approaches may present various advantages and drawbacks, and no singular method may optimize execution time universally. Please include all your approaches and describe the pros and cons. Should the creation of your own custom types be necessary, you may designate them as 'Point2', 'Point3', 'Polygon2', 'Polygon3', etc., to distinguish them from existing types.
 
 You are granted complete freedom in your approach, including the creation of custom types, the employment of alternative collection types, or any other components from the .NET library that could improve execution time. However, the use of third-party libraries or GIS open-source libraries is strictly prohibited.
 
@@ -61,7 +61,7 @@ While actual code refactoring is not required, presenting a clear, structured cr
 
 **3. Python Assignment: Design Pattern in GIS Data Processing**
 
-Objective: Implement a C# console application that processes a set of spatial data (e.g., a list of geographic coordinates, a list of polygons - it can read from a shapefile or from a JSON file) and applies a design pattern (e.g., Factory Method) to create different types of spatial analyses (e.g., centroid calculation, bounding box creation).
+Objective: Implement a Python console application that processes a set of spatial data (e.g., a list of geographic coordinates, a list of polygons - it can read from a shapefile or from a JSON file) and applies a design pattern (e.g., Factory Method) to create different types of spatial analyses (e.g., centroid calculation, bounding box creation).
 
 **Requirements:**
 
