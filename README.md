@@ -49,10 +49,11 @@ Good Code Practices: Look for the implementation of good coding practices, princ
 
 **Specific Points of Interest:**
 
-Function getTreeviewItemInfo in TreeviewStore: What do you think about this function?
-Definition of Tree Item Types: Attempt to locate where the folder tree items and layer tree items are defined within the code. Understanding these definitions is crucial for assessing the overall structure and functionality of the treeview component.
-Service for Retrieving Tree Item Definitions: Identify the service used to fetch the definitions of tree items. Is this service still used in the code?
-Tree Items Architecture Based on JSON Information: Evaluate how the tree items are structured and instantiated based on the JSON data retrieved from the service endpoint. Do you think items could be architected in some other way?
+- Function getTreeviewItemInfo in TreeviewStore: What do you think about this function?
+- Definition of Tree Item Types: Attempt to locate where the folder tree items and layer tree items are defined within the code. Understanding these definitions is crucial for assessing the overall structure and 
+functionality of the treeview component.
+- Service for Retrieving Tree Item Definitions: Identify the service used to fetch the definitions of tree items. Is this service still used in the code?
+- Tree Items Architecture Based on JSON Information: Evaluate how the tree items are structured and instantiated based on the JSON data retrieved from the service endpoint. Do you think items could be architected in some other way?
 
 **Improvement Suggestions:**
 
