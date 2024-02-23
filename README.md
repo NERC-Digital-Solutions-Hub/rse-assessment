@@ -41,15 +41,15 @@ Upon reviewing the refactoring process of the old codebase, these files were not
 
 **Assessment Criteria:**
 
-Variable Naming Conventions: Assess whether the variable names are descriptive, consistent, and follow a standard convention that enhances readability and maintainability.
-Code Clarity and Complexity: Evaluate the code for its simplicity, readability, and structure. High complexity and lack of clarity can significantly hinder future maintenance and scalability.
+- **Variable Naming Conventions:** Assess whether the variable names are descriptive, consistent, and follow a standard convention that enhances readability and maintainability.
+- **Code Clarity and Complexity:** Evaluate the code for its simplicity, readability, and structure. High complexity and lack of clarity can significantly hinder future maintenance and scalability.
 
-Object-Oriented Approaches: Identify the use of object-oriented programming principles such as encapsulation, inheritance, and polymorphism. These principles can help in organizing code more efficiently and making it more modular and reusable.
-Good Code Practices: Look for the implementation of good coding practices, principles, along with proper error handling and comments/documentation where necessary.
+- **Object-Oriented Approaches:** Identify the use of object-oriented programming principles such as encapsulation, inheritance, and polymorphism. These principles can help in organizing code more efficiently and making it more modular and reusable.
+- **Good Code Practices:** Look for the implementation of good coding practices, principles, along with proper error handling and comments/documentation where necessary.
 
 **Specific Points of Interest:**
 
-- Function getTreeviewItemInfo in TreeviewStore: What do you think about this function?
+- Function 'getTreeviewItemInfo' in TreeviewStore: What do you think about this function?
 - Definition of Tree Item Types: Attempt to locate where the folder tree items and layer tree items are defined within the code. Understanding these definitions is crucial for assessing the overall structure and 
 functionality of the treeview component.
 - Service for Retrieving Tree Item Definitions: Identify the service used to fetch the definitions of tree items. Is this service still used in the code?
@@ -67,7 +67,5 @@ Objective: Implement a Python console application that processes a set of spatia
 **Requirements:**
 
 - Allow the user to select the type of spatial analysis via command-line arguments or user input.
-
 - Use the Factory Method pattern to instantiate the appropriate analysis class based on the user's selection.
-
 - Demonstrate proper use of abstractions using the ABC module to define and implement spatial analysis operations.
