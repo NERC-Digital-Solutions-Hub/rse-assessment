@@ -1,38 +1,50 @@
 **NERC Digital Solutions Programme RSE Assessment**
 
+The assessment consists of three assignments:
+
+1. **CSharp Assignment**: A specific C# project is provided for this task. Returning this assignment is obligatory if you have listed C# expertise on your CV.
+2. **JavaScript Assignment**: This assignment involves the critical evaluation of two JavaScript code files. It is compulsory to submit this assignment if JavaScript is mentioned in your CV.
+3. **Python Assignment**: This assignment is intended for candidates who have exclusively listed Python in their CV and lack either C# and/or JavaScript skills. Those who have submitted both C# and JavaScript assignments may also choose to submit the Python assignment voluntarily; however, it is not mandatory.
+
 The code files for your assessment can be found in:
 
 https://github.com/NERC-Digital-Solutions-Hub/rse-assessment
 
 Feel free to clone the repository or download a zip with the code from GitHub.
 
-There are three assessments, one named ‘CSharp’ with a C# project, another named 'JavaScript' which contains two JavaScript code files to evaluate and a third one called ‘Python’. **You only need to complete TWO out of the three assessments which should correspond to your programming skills you identified in your CV**. For those who identified C# as one of the programming skills the C# assignment is **mandatory**. Then you should complete one other of the remaining tasks. 
+Please review the assessment requirements carefully. The tasks have been intentionally designed to be straightforward while still providing ample opportunity for you to showcase your software engineering knowledge. To proceed to the interview stage, you should submit the completed tasks. However, if meeting the deadline proves challenging, please contact us via email to discuss possible solutions. If you believe your submission is incomplete, feel free to submit it with a note explaining what remains unfinished and how you would approach completing these elements given more time.
 
-Please read the requirements of the assessment carefully. The tasks were designed to be as simple as possible but at the same time to allow you to demonstrate as much as possible of your knowledge in software engineering. You do not need to complete the tasks, given the short preparation time. However, it would be good to attempt the assessment and feel free to return it to us even if it is incomplete. If you need any further clarification on the tasks you can contact vasileios.vlastaras@manchester.ac.uk
+**The deadline for it is on Friday 12/04/2024 - 06:00 GMT (This is early morning London Time).**
 
-**The deadline for it is on Sunday 25/02/2024 - 18:00 GMT (London Time).**
-
-You should upload your code and your written assessment in a file sharing service of your choice (like DropBox, Google Drive) to avoid the zipped code being blocked by our e-mail servers.
-
-Please send an e-mail including the URL to the shared zip file to the following addresses:
+You should upload your code and your written assessment to a file-sharing service of your choice (like DropBox or Google Drive) to avoid the zipped code being blocked by our e-mail servers.
+Please send an e-mail including the URL to the shared zip file to ALL of the following addresses:
 
 richard.kingston@manchester.ac.uk
-
 jennifer.mckillop@manchester.ac.uk
-
 vasileios.vlastaras@manchester.ac.uk
 
-If by any chance we do not receive your assessment, make sure you have it available to upload on the day of your interview.
+You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please ensure you regularly check your email until you receive our confirmation.
 
 **1. CSharp**
 
-The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a single outer shell polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
+The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a convex polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
-Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. A total of 50 million calculations or generations are performed to allow assessing performance.
+Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. To assess the program's performance, a total of 10 million calculations and a total of 10 million instance genenerations is performed.
 
-Your task involves a thorough examination of the program's code to identify and rectify any issues or shortcomings before attempting the **improvement of the program**. You are encouraged to leverage your proficiency in C# to enhance the implementation of the discovered operations. You are encouraged to showcase more than one approach to **reduce the execution time of the program**. It's understood that different approaches may present various advantages and drawbacks, and no singular method may optimize execution time universally. Please include all your approaches and describe the pros and cons. Should the creation of your own custom types be necessary, you may designate them as 'Point2', 'Point3', 'Polygon2', 'Polygon3', etc., to distinguish them from existing types.
+Your task is to identify and implement ways to enhance the program's execution time. To accomplish this, you are expected to:
 
-You are granted complete freedom in your approach, including the creation of custom types, the employment of alternative collection types, or any other components from the .NET library that could improve execution time. However, the use of third-party libraries or GIS open-source libraries is strictly prohibited.
+1. Initially, conduct a comprehensive review of the program's code to pinpoint any potential issues or deficiencies. Should any be found, promptly address and rectify them. Make sure you explain what you corrected in the code and present your interventions in a short document which will complement the code assessment.
+2. The program currently lacks comments. Carefully examine the code and provide XML docstrings to clearly explain the purpose of each method, class, etc.
+3. Utilize your expertise in C# to refine the execution of identified operations, aiming for improved efficiency.
+4. Demonstrate multiple strategies to decrease the program's execution time, leveraging your knowledge and skills.
+5. Recognize that each strategy may offer its own set of benefits and limitations, and there might not be a one-size-fits-all solution to optimize execution time. Please provide insights into your chosen approaches, outlining their advantages and disadvantages.
+6. C# offers multiple options for defining types. Please create custom types to represent points and polygons, aiming to enhance execution time. Name these new types distinctly, such as 'Point2', 'Point3', 'Polygon2', 'Polygon3', etc., to differentiate them from existing ones.
+7. C# features various techniques for efficient memory management. You are encouraged to explore and apply as many of these techniques as deemed appropriate in your enhancements.
+8. C# includes several methods to accelerate execution time and computation efficiency. Could you demonstrate techniques to reduce the program’s execution time?
+9. The principles of Object-Oriented Programming (OOP) in C# offer avenues for code development. Consider whether OOP can aid in reducing execution time or if it potentially complicates and slows down the process. Please either implement OOP strategies or consciously choose not to, providing your rationale for either decision.
+10. For each improvement you attempt, discuss the positive and negative aspects. This discussion will help in understanding the trade-offs involved in optimizing execution time.
+
+You are granted complete freedom in your approach, including the creation of custom types, the employment of alternative collection types, or any other objects from the .NET library that could improve execution time. However, the use of third-party libraries or GIS open-source libraries is strictly prohibited.
 
 **2. JavaScript**
 
