@@ -50,7 +50,7 @@ You are granted complete freedom in your approach, including creating custom typ
 
 **2. JavaScript Assignment: Critically evaluate code files**
 
-The TreeviewStore.js and retrieveTreeviewItems.js files are part of the larger codebase of a web Single Page Application (SPA) that features, among other components, a treeview to display map layers organized in a hierarchical structure. This treeview allows users to manage layers in a map through various tree items grouped within folder items.
+The **TreeviewStore.js** and **retrieveTreeviewItems.js** files are part of the larger codebase of a web Single Page Application (SPA) that features, among other components, a treeview to display map layers organized in a hierarchical structure. This treeview allows users to manage layers in a map through various tree items grouped within folder items.
 Upon reviewing the refactoring process of the old codebase, multiple issues were noted in these files. The goal is to understand the original developer's intentions, evaluate the code for its adherence to best practices, and suggest improvements.
 
 **Assessment Criteria:**
@@ -62,11 +62,10 @@ Upon reviewing the refactoring process of the old codebase, multiple issues were
 
 **Specific Points of Interest:**
 
-- Function 'getTreeviewItemInfo' in TreeviewStore: Please assess this function and write your thoughts about it.
-- Definition of Tree Item Types: Attempt to locate where the folder tree items and layer tree items are defined within the code. Understanding these definitions is crucial for assessing the overall structure and 
-functionality of the treeview component. What do you think about the way they are defined?
-- Service for Retrieving Tree Item Definitions: Identify the service used to fetch the definitions of tree items. Is this service still used in the code, and if not, what is its replacement?
-- Tree Items Architecture Based on JSON Information: Evaluate how the tree items are structured and instantiated based on the JSON data retrieved from the service endpoint. Do you think items could be architected in some other way?
+- **Function 'getTreeviewItemInfo' in TreeviewStore:** Please assess this function and write your thoughts about it.
+- **Definition of Tree Item Types:** Attempt to locate where the folder tree items and layer tree items are defined within the code. Understanding these definitions is crucial for assessing the overall structure and functionality of the treeview component. What do you think about the way they are defined?
+- **Service for Retrieving Tree Item Definitions:** Identify the service used to fetch the definitions of tree items. Is this service still used in the code, and if not, what is its replacement?
+- **Tree Items Architecture Based on JSON Information:** Evaluate how the tree items are structured and instantiated based on the JSON data retrieved from the service endpoint. Do you think items could be architected in some other way?
 
 **Improvement Suggestions:**
 
