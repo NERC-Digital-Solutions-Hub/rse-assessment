@@ -27,7 +27,7 @@ vasileios.vlastaras@manchester.ac.uk
 
 You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please ensure you regularly check your email until you receive our confirmation.
 
-**1. CSharp**
+**1. CSharp Assignment: Execution time optimisation**
 
 The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a convex polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
@@ -48,7 +48,7 @@ Your task is to identify and implement ways to enhance the program's execution t
 
 You are granted complete freedom in your approach, including the creation of custom types, the employment of alternative collection types, or any other objects from the .NET library that could improve execution time. However, the use of third-party libraries or GIS open-source libraries is strictly prohibited.
 
-**2. JavaScript**
+**2. JavaScript Assignment: Critically evaluate code files**
 
 The TreeviewStore.js and retrieveTreeviewItems.js files are part of the larger codebase of a web Single Page Application (SPA) that features, among other components, a treeview to display map layers organized in a hierarchical structure. This treeview allows users to manage layers in a map through various tree items grouped within folder items.
 Upon reviewing the refactoring process of the old codebase, these files were noted to have multiple issues. The goal is to understand the original developer's intentions, evaluate the code for its adherence to best practices, and suggest improvements.
