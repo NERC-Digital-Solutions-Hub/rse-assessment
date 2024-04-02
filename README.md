@@ -20,7 +20,9 @@ You should upload your code and your written assessment to a file-sharing servic
 Please send an e-mail including the URL to the shared zip file to ALL of the following addresses:
 
 richard.kingston@manchester.ac.uk
+
 jennifer.mckillop@manchester.ac.uk
+
 vasileios.vlastaras@manchester.ac.uk
 
 You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please ensure you regularly check your email until you receive our confirmation.
