@@ -1,6 +1,6 @@
 **NERC Digital Solutions Programme RSE Assessment**
 
-The assessment consists of three assignments. Please read carefully below so that you can determine which assignments to complete.
+The assessment consists of three assignments. Please read the information below carefully so that you can determine which assignments to complete.
 
 1. **CSharp Assignment**: A C# project included in this repository is provided for this task. Returning this assignment is **obligatory if you have listed C# expertise on your CV**.
 2. **JavaScript Assignment**: This assignment involves the critical evaluation of two JavaScript code files. It is **compulsory to submit this assignment if JavaScript is mentioned in your CV**.
