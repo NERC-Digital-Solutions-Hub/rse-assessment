@@ -1,16 +1,16 @@
 **NERC Digital Solutions Programme RSE Assessment**
 
-The assessment consists of three assignments:
+The assessment consists of three assignments. Please read carefully below so that you can determine which assignments to complete.
 
-1. **CSharp Assignment**: A specific C# project is provided for this task. Returning this assignment is obligatory if you have listed C# expertise on your CV.
-2. **JavaScript Assignment**: This assignment involves the critical evaluation of two JavaScript code files. It is compulsory to submit this assignment if JavaScript is mentioned in your CV.
+1. **CSharp Assignment**: A C# project included in this repository is provided for this task. Returning this assignment is **obligatory if you have listed C# expertise on your CV**.
+2. **JavaScript Assignment**: This assignment involves the critical evaluation of two JavaScript code files. It is **compulsory to submit this assignment if JavaScript is mentioned in your CV**.
 3. **Python Assignment**: This assignment is intended for candidates who have exclusively listed Python in their CV and lack either C# and/or JavaScript skills. Those who have submitted both C# and JavaScript assignments may also choose to submit the Python assignment voluntarily; however, it is not mandatory.
 
 The code files for your assessment can be found in:
 
 https://github.com/NERC-Digital-Solutions-Hub/rse-assessment
 
-Feel free to clone the repository or download a zip with the code from GitHub.
+You can clone the repository or download a zip with the code from GitHub.
 
 Please review the assessment requirements carefully. The tasks have been intentionally designed to be straightforward while still providing ample opportunity for you to showcase your software engineering knowledge. To proceed to the interview stage, you should submit the completed tasks. However, if meeting the deadline proves challenging, please contact us via email to discuss possible solutions. If you believe your submission is incomplete, feel free to submit it with a note explaining what remains unfinished and how you would approach completing these elements given more time.
 
@@ -25,18 +25,18 @@ jennifer.mckillop@manchester.ac.uk
 
 vasileios.vlastaras@manchester.ac.uk
 
-You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please ensure you regularly check your email until you receive our confirmation.
+You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please check your email regularly until you receive our confirmation.
 
 **1. CSharp Assignment: Execution time optimisation**
 
 The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a convex polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
-Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. To assess the program's performance, a total of 10 million calculations and a total of 10 million instance genenerations is performed.
+Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. To assess the program's performance, a total of 10 million calculations and a total of 10 million instance creations are performed.
 
 Your task is to **identify and implement ways to enhance the program's execution time**. To accomplish this, you are expected to:
 
 1. Initially, conduct a comprehensive review of the program's code to **pinpoint any potential issues or deficiencies**. Should any be found, **promptly address and rectify them**. Make sure you explain what you corrected in the code and present your interventions in a short document which will complement the code assessment.
-2. The program currently lacks comments. Carefully examine the code and provide **XML docstrings to clearly explain the purpose of each method, class,** etc.
+2. The program currently lacks comments. Please carefully review the code and provide **XML docstrings to clearly explain the purpose of each method, class,** etc. The comments should be added after you make any corrections or modifications to the code.
 3. Utilize your expertise in C# to refine the execution of identified operations, aiming for **improved efficiency**.
 4. Demonstrate **multiple strategies** to decrease the program's execution time, leveraging your knowledge and skills.
 5. Recognize that each strategy may offer its own set of benefits and limitations, and there might not be a one-size-fits-all solution to optimize execution time. Please provide insights into your chosen approaches, outlining their advantages and disadvantages.
