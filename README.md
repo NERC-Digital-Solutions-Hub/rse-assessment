@@ -10,7 +10,7 @@ You can clone the repository or download a zip with the code from GitHub.
 
 Please review the assessment requirements carefully. The tasks have been intentionally designed to be straightforward while still providing ample opportunity for you to showcase your software engineering knowledge. To proceed to the interview stage, you should submit the completed tasks. However, if meeting the deadline proves challenging, please contact us via email to discuss possible solutions. If you believe your submission is incomplete, feel free to submit it with a note explaining what remains unfinished and how you would approach completing these elements given more time.
 
-**The deadline for it is on Sunday, 9th March 2025 - 23:00 GMT (London Time).**
+**The deadline for it is on Sunday, 9th March 2025, at 23:00 GMT (London Time).**
 
 You should upload your code and your written assessment to a file-sharing service of your choice (like DropBox or Google Drive) to avoid the zipped code being blocked by our e-mail servers.
 Please send an e-mail including the URL to the shared zip file to **ALL the following addresses:**
