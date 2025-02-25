@@ -1,23 +1,19 @@
 **NERC Digital Solutions Programme RSE Assessment**
 
-The assessment consists of three assignments. Please read the information below carefully so that you can determine which assignments to complete.
+The assessment consists of **three assignments**. Please read the information below carefully so that you can determine which assignments to complete.
 
 1. **CSharp Assignment**: A C# project included in this repository is provided for this task. Returning this assignment is **obligatory if you have listed C# expertise on your CV**.
 2. **JavaScript Assignment**: This assignment involves the critical evaluation of two JavaScript code files. It is **compulsory to submit this assignment if JavaScript is mentioned in your CV**.
 3. **Python Assignment**: This assignment is intended for candidates who have exclusively listed Python in their CV and lack either C# and/or JavaScript skills. Those who have submitted both C# and JavaScript assignments may also choose to submit the Python assignment voluntarily; however, it is not mandatory.
 
-The code files for your assessment can be found in:
-
-https://github.com/NERC-Digital-Solutions-Hub/rse-assessment
-
 You can clone the repository or download a zip with the code from GitHub.
 
 Please review the assessment requirements carefully. The tasks have been intentionally designed to be straightforward while still providing ample opportunity for you to showcase your software engineering knowledge. To proceed to the interview stage, you should submit the completed tasks. However, if meeting the deadline proves challenging, please contact us via email to discuss possible solutions. If you believe your submission is incomplete, feel free to submit it with a note explaining what remains unfinished and how you would approach completing these elements given more time.
 
-**The deadline for it is on XXXX - needs to match what is in the Word doc in the email to candidates.**
+**The deadline for it is on Sunday, 9th March 2025 - 23:00 GMT (London Time).**
 
 You should upload your code and your written assessment to a file-sharing service of your choice (like DropBox or Google Drive) to avoid the zipped code being blocked by our e-mail servers.
-Please send an e-mail including the URL to the shared zip file to ALL of the following addresses:
+Please send an e-mail including the URL to the shared zip file to **ALL of the following addresses:**
 
 richard.kingston@manchester.ac.uk
 
@@ -27,11 +23,13 @@ vasileios.vlastaras@manchester.ac.uk
 
 You will receive a confirmation email acknowledging the receipt of your code assessment. Should we encounter any issues accessing or downloading your submission, we will contact you to resolve the matter. Therefore, please check your email regularly until you receive our confirmation.
 
+If by any chance we do not receive your assessment, make sure you have it available to upload on the day of your interview. 
+
 **1. CSharp Assignment: Execution time optimisation**
 
-The Visual Studio Solution named 'RSE' encompasses a console project titled 'GeometriesAssessment'. This project comprises two foundational classes, 'Point1' and 'Polygon1', serving as templates for defining Points and Polygons, respectively. For the sake of simplification, 'Polygon1' is designated as a convex polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
+The Visual Studio Solution named **'RSE'** encompasses a console project titled **'GeometriesAssessment'**. This project comprises two foundational classes, **'Point1'** and **'Polygon1'**, serving as templates for defining Points and Polygons, respectively. For simplification, **'Polygon1'** is designated as a **convex** polygon, circumventing the complexities associated with supporting polygonal holes or multiple shells.
 
-Within 'program.cs', the console application's code resides. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. To assess the program's performance, a total of 10 million calculations and a total of 10 million instance creations are performed.
+The console application's code resides within **'Program.cs'**. Executing this program unveils a series of messages detailing the duration required for the program to perform its operations, which include generating points and polygons, as well as computing distances. To assess the program's performance, a total of 10 million calculations and a total of 50 million instance creations are performed.
 
 Your task is to **identify and implement ways to enhance the program's execution time**. To accomplish this, you are expected to:
 
@@ -46,7 +44,7 @@ Your task is to **identify and implement ways to enhance the program's execution
 9. The principles of Object-Oriented Programming (OOP) in C# offer avenues for code development. Consider whether OOP can aid in reducing execution time or if it potentially complicates and slows down the process. Please either implement OOP strategies or consciously choose not to, providing your rationale for either decision.
 10. For each improvement you attempt, discuss the **positive and negative aspects**. This discussion will help us understand the trade-offs involved in optimizing execution time.
 
-You are granted complete freedom in your approach, including creating custom types, employing alternative collection types, or any other objects from the .NET library that could improve execution time. However, using third-party libraries or GIS open-source libraries is strictly prohibited.
+You are granted complete freedom in your approach, including creating custom types, employing alternative collection types, or any other objects from the .NET library that could improve execution time. However, **using third-party libraries or GIS open-source libraries is strictly prohibited.**
 
 **2. JavaScript Assignment: Critically evaluate code files**
 
@@ -74,7 +72,7 @@ While actual code refactoring is not required, presenting a clear, structured cr
 
 **3. Python Assignment: Design Pattern in GIS Data Processing**
 
-Objective: Implement a Python console application that processes a set of spatial data (e.g., a list of geographic coordinates, a list of polygons - it can read from a shapefile or from a JSON file) and applies a design pattern (e.g., Factory Method) to create different types of spatial analyses (e.g., centroid calculation, bounding box creation).
+**Objective:** Implement a Python console application that processes a set of spatial data (e.g., a list of geographic coordinates, a list of polygons - it can read from a shapefile or from a JSON file) and applies a design pattern (e.g., Factory Method) to create different types of spatial analyses (e.g., centroid calculation, bounding box creation).
 
 **Requirements:**
 
