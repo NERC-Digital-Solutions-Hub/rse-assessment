@@ -13,7 +13,7 @@ Please review the assessment requirements carefully. The tasks have been intenti
 **The deadline for it is on Sunday, 9th March 2025 - 23:00 GMT (London Time).**
 
 You should upload your code and your written assessment to a file-sharing service of your choice (like DropBox or Google Drive) to avoid the zipped code being blocked by our e-mail servers.
-Please send an e-mail including the URL to the shared zip file to **ALL of the following addresses:**
+Please send an e-mail including the URL to the shared zip file to **ALL the following addresses:**
 
 richard.kingston@manchester.ac.uk
 
